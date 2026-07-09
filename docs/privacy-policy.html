@@ -47,7 +47,7 @@
 <body>
 <main>
   <h1>Typeflow Keyboard — Privacy Policy</h1>
-  <p class="updated">Last updated: 2026-07-09</p>
+  <p class="updated">Last updated: 2026-07-09 (v2)</p>
 
   <p>
     Typeflow is a virtual keyboard (Input Method Editor) for Android. This page
@@ -65,10 +65,9 @@
   <ul>
     <li><strong>Password and PIN fields are excluded.</strong> Typeflow detects
       password-type input fields and automatically disables suggestions,
-      learning, and AI features while one is focused.</li>
-    <li>Typed text used for suggestions is processed <strong>on-device</strong>
-      and is not sent anywhere, unless you explicitly enable a cloud AI feature
-      described below.</li>
+      learning, and the AI assistant while one is focused.</li>
+    <li>Typed text used for suggestions is processed <strong>entirely
+      on-device</strong> and is never sent anywhere.</li>
   </ul>
 
   <h2>Data stored on your device</h2>
@@ -78,34 +77,26 @@
     <li>Keyboard settings, themes, and layout preferences</li>
     <li>Clipboard history (when enabled) — capped in size, and never
       transmitted off-device</li>
-    <li>Optional AI provider settings, including any API key you choose to
-      enter (see below)</li>
+    <li>AI assistant settings (e.g. the address of your own Ollama server)</li>
   </ul>
 
-  <h2>Optional cloud AI features (off by default)</h2>
+  <h2>Optional local AI assistant (off by default)</h2>
   <p>
-    Typeflow includes an optional "Smart Things" AI assistant with two modes,
-    neither of which is required to use the keyboard:
-  </p>
-  <ul>
-    <li><strong>Local (Ollama):</strong> connects to an Ollama server you run
-      yourself on your own device or local network. Nothing leaves your local
-      network.</li>
-    <li><strong>Cloud (Hugging Face):</strong> if you supply your own Hugging
-      Face API key and enable this mode, the text you submit to the assistant
-      is sent to Hugging Face's inference API
-      (<code>router.huggingface.co</code>) to generate a response. This only
-      happens when you actively use the assistant — ordinary typing and
-      suggestions are never sent here.</li>
-  </ul>
-  <p>
-    Both AI modes are disabled while a password or PIN field is focused.
+    Typeflow includes an optional AI assistant that connects to an
+    <strong>Ollama</strong> server you run yourself, on your own device or
+    local network. It is not required to use the keyboard, is off by default,
+    and is disabled automatically while a password or PIN field is focused.
+    Nothing you send to it leaves your own local network — Typeflow has no
+    cloud AI provider and does not relay this text anywhere else.
   </p>
 
   <h2>Permissions Typeflow requests</h2>
   <ul>
-    <li><strong>Internet</strong> — required only for the optional cloud AI
-      feature above.</li>
+    <li><strong>Internet</strong> — used to (a) talk to your own local Ollama
+      server if you enable the AI assistant, and (b) optionally download
+      extra content you choose to install (additional keyboard layouts, emoji
+      packs, or suggestion models), fetched directly from Typeflow's own
+      hosting on GitHub. No typed text is ever uploaded as part of this.</li>
     <li><strong>Display over other apps</strong> — required only if you enable
       the floating/detached keyboard mode.</li>
     <li><strong>Vibrate</strong> — used for optional haptic feedback on key
@@ -118,15 +109,15 @@
   <ul>
     <li>No analytics, tracking, or advertising SDKs are included.</li>
     <li>No account or sign-in is required to use the keyboard.</li>
-    <li>No data is sold or shared with third parties.</li>
+    <li>No data is sold, shared, or sent to any third party. Typeflow has no
+      cloud AI backend of its own.</li>
   </ul>
 
   <h2>Your control over data</h2>
   <p>
     You can clear stored settings and clipboard history from the device's
     App Info screen (<em>Storage &gt; Clear data</em>), or remove all app data
-    by uninstalling Typeflow. If you entered a Hugging Face API key, clearing
-    AI settings removes it from local storage.
+    by uninstalling Typeflow.
   </p>
 
   <h2>Changes to this policy</h2>
