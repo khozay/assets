@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Typeflow Keyboard — Privacy Policy</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #555;
+    --accent: #d6006b;
+    --rule: #e2e2e2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --fg: #eee;
+      --muted: #aaa;
+      --accent: #ff4fa0;
+      --rule: #2c2c2c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  h1 { font-size: 1.8em; margin-bottom: 0.1em; }
+  .updated { color: var(--muted); font-size: 0.9em; margin-bottom: 2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; border-top: 1px solid var(--rule); padding-top: 1em; }
+  ul { padding-left: 1.2em; }
+  li { margin: 0.4em 0; }
+  a { color: var(--accent); }
+  code { background: rgba(128,128,128,0.15); padding: 0.1em 0.4em; border-radius: 4px; font-size: 0.9em; }
+  .contact { margin-top: 2.5em; padding-top: 1.5em; border-top: 1px solid var(--rule); color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Typeflow Keyboard — Privacy Policy</h1>
+  <p class="updated">Last updated: 2026-07-09</p>
+
+  <p>
+    Typeflow is a virtual keyboard (Input Method Editor) for Android. This page
+    explains what data Typeflow accesses, where it goes, and what control you
+    have over it.
+  </p>
+
+  <h2>What Typeflow can see</h2>
+  <p>
+    Like any Android keyboard, Typeflow receives the text you type so it can
+    display it, offer word suggestions, and provide autocorrect. This is a
+    platform requirement of every keyboard app, not something unique to
+    Typeflow.
+  </p>
+  <ul>
+    <li><strong>Password and PIN fields are excluded.</strong> Typeflow detects
+      password-type input fields and automatically disables suggestions,
+      learning, and AI features while one is focused.</li>
+    <li>Typed text used for suggestions is processed <strong>on-device</strong>
+      and is not sent anywhere, unless you explicitly enable a cloud AI feature
+      described below.</li>
+  </ul>
+
+  <h2>Data stored on your device</h2>
+  <p>All of the following stays in the app's private storage folder on your
+    device and is deleted automatically if you uninstall Typeflow:</p>
+  <ul>
+    <li>Keyboard settings, themes, and layout preferences</li>
+    <li>Clipboard history (when enabled) — capped in size, and never
+      transmitted off-device</li>
+    <li>Optional AI provider settings, including any API key you choose to
+      enter (see below)</li>
+  </ul>
+
+  <h2>Optional cloud AI features (off by default)</h2>
+  <p>
+    Typeflow includes an optional "Smart Things" AI assistant with two modes,
+    neither of which is required to use the keyboard:
+  </p>
+  <ul>
+    <li><strong>Local (Ollama):</strong> connects to an Ollama server you run
+      yourself on your own device or local network. Nothing leaves your local
+      network.</li>
+    <li><strong>Cloud (Hugging Face):</strong> if you supply your own Hugging
+      Face API key and enable this mode, the text you submit to the assistant
+      is sent to Hugging Face's inference API
+      (<code>router.huggingface.co</code>) to generate a response. This only
+      happens when you actively use the assistant — ordinary typing and
+      suggestions are never sent here.</li>
+  </ul>
+  <p>
+    Both AI modes are disabled while a password or PIN field is focused.
+  </p>
+
+  <h2>Permissions Typeflow requests</h2>
+  <ul>
+    <li><strong>Internet</strong> — required only for the optional cloud AI
+      feature above.</li>
+    <li><strong>Display over other apps</strong> — required only if you enable
+      the floating/detached keyboard mode.</li>
+    <li><strong>Vibrate</strong> — used for optional haptic feedback on key
+      press.</li>
+  </ul>
+  <p>Typeflow does not request access to contacts, storage, location, camera,
+    or microphone.</p>
+
+  <h2>What Typeflow does not do</h2>
+  <ul>
+    <li>No analytics, tracking, or advertising SDKs are included.</li>
+    <li>No account or sign-in is required to use the keyboard.</li>
+    <li>No data is sold or shared with third parties.</li>
+  </ul>
+
+  <h2>Your control over data</h2>
+  <p>
+    You can clear stored settings and clipboard history from the device's
+    App Info screen (<em>Storage &gt; Clear data</em>), or remove all app data
+    by uninstalling Typeflow. If you entered a Hugging Face API key, clearing
+    AI settings removes it from local storage.
+  </p>
+
+  <h2>Changes to this policy</h2>
+  <p>
+    If this policy changes, the "Last updated" date above will change and the
+    new version will be published at this same address.
+  </p>
+
+  <div class="contact">
+    Questions about this policy or Typeflow's data practices? Contact
+    <a href="mailto:demokhozayn@gmail.com">demokhozayn@gmail.com</a>.
+  </div>
+</main>
+</body>
+</html>
