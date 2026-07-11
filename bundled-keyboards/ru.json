@@ -1,0 +1,288 @@
+{
+  "name": "🇷🇺 Русские",
+  "row0": {
+    "key00": {
+      "codes": {
+        "tap": "й",
+        "shift": "Й",
+        "upRight": "1",
+        "downLeft": "@"
+      }
+    },
+    "key01": {
+      "codes": {
+        "tap": "ц",
+        "shift": "Ц",
+        "upRight": "2",
+        "downLeft": "#"
+      }
+    },
+    "key02": {
+      "codes": {
+        "tap": "у",
+        "shift": "У",
+        "upRight": "3",
+        "downLeft": "$"
+      }
+    },
+    "key03": {
+      "codes": {
+        "tap": "к",
+        "shift": "К",
+        "upRight": "4",
+        "downLeft": "%"
+      }
+    },
+    "key04": {
+      "codes": {
+        "tap": "е",
+        "shift": "Е",
+        "upRight": "5",
+        "downLeft": "^",
+        "downRight": "ё"
+      }
+    },
+    "key05": {
+      "codes": {
+        "tap": "н",
+        "shift": "Н",
+        "upRight": "6",
+        "downLeft": "&"
+      }
+    },
+    "key06": {
+      "codes": {
+        "tap": "г",
+        "shift": "Г",
+        "upRight": "7",
+        "downLeft": "*"
+      }
+    },
+    "key07": {
+      "codes": {
+        "tap": "ш",
+        "shift": "Ш",
+        "upRight": "8",
+        "downLeft": "(",
+        "downRight": ")"
+      }
+    },
+    "key08": {
+      "codes": {
+        "tap": "щ",
+        "shift": "Щ",
+        "upRight": "9"
+      }
+    },
+    "key09": {
+      "codes": {
+        "tap": "з",
+        "shift": "З",
+        "upRight": "0"
+      }
+    },
+    "key0a": {
+      "codes": {
+        "tap": "х",
+        "shift": "Х"
+      }
+    }
+  },
+  "row1": {
+    "key10": {
+      "codes": {
+        "tap": "ф",
+        "shift": "Ф",
+        "upRight": "`"
+      }
+    },
+    "key11": {
+      "codes": {
+        "tap": "ы",
+        "shift": "Ы"
+      }
+    },
+    "key12": {
+      "codes": {
+        "tap": "в",
+        "shift": "В"
+      }
+    },
+    "key13": {
+      "codes": {
+        "tap": "а",
+        "shift": "А"
+      }
+    },
+    "key14": {
+      "codes": {
+        "tap": "п",
+        "shift": "П",
+        "upRight": "_",
+        "downLeft": "-"
+      }
+    },
+    "key15": {
+      "codes": {
+        "tap": "р",
+        "shift": "Р",
+        "upRight": "=",
+        "downLeft": "+"
+      }
+    },
+    "key16": {
+      "codes": {
+        "tap": "о",
+        "shift": "О",
+        "downLeft": "{",
+        "downRight": "}"
+      }
+    },
+    "key17": {
+      "codes": {
+        "tap": "л",
+        "shift": "Л",
+        "downLeft": "[",
+        "downRight": "]"
+      }
+    },
+    "key18": {
+      "codes": {
+        "tap": "д",
+        "shift": "Д",
+        "upRight": "|",
+        "downLeft": "\\"
+      }
+    },
+    "key19": {
+      "codes": {
+        "tap": "ж",
+        "shift": "Ж"
+      }
+    },
+    "key1a": {
+      "codes": {
+        "tap": "э",
+        "shift": "Э"
+      }
+    }
+  },
+  "row2": {
+    "key20": {
+      "codes": {
+        "tap": { "code": -1, "icon": "shift" }
+      },
+      "flags": "LOCKABLE | MODIFIER"
+    },
+    "key21": {
+      "codes": {
+        "tap": "я",
+        "shift": "Я"
+      }
+    },
+    "key22": {
+      "codes": {
+        "tap": "ч",
+        "shift": "Ч",
+        "upRight": "/"
+      }
+    },
+    "key23": {
+      "codes": {
+        "tap": "с",
+        "shift": "С",
+        "upRight": ".",
+        "downLeft": ","
+      }
+    },
+    "key24": {
+      "codes": {
+        "tap": "м",
+        "shift": "М",
+        "downLeft": "<",
+        "downRight": ">"
+      }
+    },
+    "key25": {
+      "codes": {
+        "tap": "и",
+        "shift": "И",
+        "upRight": "?",
+        "downLeft": "!"
+      }
+    },
+    "key26": {
+      "codes": {
+        "tap": "т",
+        "shift": "Т",
+        "upRight": ":",
+        "downLeft": ";"
+      }
+    },
+    "key27": {
+      "codes": {
+        "tap": "ь",
+        "shift": "Ь",
+        "downRight": "ъ"
+      }
+    },
+    "key28": {
+      "codes": {
+        "tap": "б",
+        "shift": "Б"
+      }
+    },
+    "key29": {
+      "codes": {
+        "tap": "ю",
+        "shift": "Ю",
+        "upRight": "\"",
+        "downLeft": "'"
+      }
+    },
+    "key2a": {
+      "codes": {
+        "tap": { "code": -5, "icon": "backspace" },
+        "right": { "code": -28, "icon": "backspace" }
+      },
+      "flags": "SWIPEABLE | REPEATABLE | MODIFIER"
+    }
+  },
+  "row3": {
+    "key30": {
+      "codes": {
+        "tap": { "code": -8, "icon": "keyboard_command_key" }
+      },
+      "flags": "LATCHABLE | MODIFIER"
+    },
+    "key31": {
+      "codes": {
+        "tap": { "code": -26, "icon": "language" }
+      },
+      "flags": "EVENT"
+    },
+    "key34": {
+      "codes": {
+        "tap": " ",
+        "shift": " ",
+        "left": { "code": -11, "icon": "arrow_back_ios" },
+        "right": { "code": -10, "icon": "arrow_forward_ios" }
+      },
+      "flags": "REPEATABLE",
+      "scale": 5.5
+    },
+    "key35": {
+      "codes": {
+        "tap": { "code": -7, "icon": "emoji_emotions" }
+      },
+      "flags": "EVENT"
+    },
+    "key36": {
+      "codes": {
+        "tap": { "code": -4, "icon": "send" }
+      },
+      "flags": "MODIFIER",
+      "scale": 1.5
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "🇮🇱 עברית",
+  "row0": {
+    "key00": { "codes": { "tap": "ת" } },
+    "key01": { "codes": { "tap": "'" } },
+    "key02": { "codes": { "tap": "ק" } },
+    "key03": { "codes": { "tap": "ר" } },
+    "key04": { "codes": { "tap": "א" } },
+    "key05": { "codes": { "tap": "ט" } },
+    "key06": { "codes": { "tap": "ו" } },
+    "key07": { "codes": { "tap": "ן" } },
+    "key08": { "codes": { "tap": "ם" } },
+    "key09": { "codes": { "tap": "פ", "upRight": "ף" } }
+  },
+  "row1": {
+    "key10": { "codes": { "tap": "ש" } },
+    "key11": { "codes": { "tap": "ד" } },
+    "key12": { "codes": { "tap": "ג" } },
+    "key13": { "codes": { "tap": "כ", "upRight": "ך" } },
+    "key14": { "codes": { "tap": "ע" } },
+    "key15": { "codes": { "tap": "י" } },
+    "key16": { "codes": { "tap": "ח" } },
+    "key17": { "codes": { "tap": "ל" } }
+  },
+  "row2": {
+    "key20": { "codes": { "tap": { "code": "SHIFT", "icon": "shift" } }, "flags": "MODIFIER | LATCHABLE | LOCKABLE", "scale": 1.5 },
+    "key21": { "codes": { "tap": "ז" } },
+    "key22": { "codes": { "tap": "ס" } },
+    "key23": { "codes": { "tap": "ב" } },
+    "key24": { "codes": { "tap": "ה" } },
+    "key25": { "codes": { "tap": "נ", "upRight": "ן" } },
+    "key26": { "codes": { "tap": "מ", "upRight": "ם" } },
+    "key27": { "codes": { "tap": "צ", "upRight": "ץ" } },
+    "key28": { "codes": { "tap": { "code": "DELETE", "icon": "backspace" }, "right": { "code": "FORWARD_DELETE", "icon": "backspace" } }, "flags": "CONTROL | REPEATABLE | SWIPEABLE", "scale": 1.5 }
+  },
+  "row3": {
+    "key30": { "codes": { "tap": { "code": "CTRL", "icon": "keyboard_command_key" } }, "flags": "EVENT | MODIFIER | LATCHABLE" },
+    "key31": { "codes": { "tap": { "code": "LANG", "icon": "language" } }, "flags": "EVENT" },
+    "key33": {
+      "codes": { "tap": " ", "shift": " ", "left": { "code": "LEFT", "icon": "arrow_back_ios" }, "right": { "code": "RIGHT", "icon": "arrow_forward_ios" } },
+      "flags": "CHARACTER | SWIPEABLE | REPEATABLE",
+      "scale": 5.5
+    },
+    "key34": { "codes": { "tap": { "code": "EMOJI", "icon": "emoji_emotions" } }, "flags": "EVENT" },
+    "key35": { "codes": { "tap": { "code": "DONE", "icon": "send" } }, "flags": "CONTROL | EVENT", "scale": 1.5 }
+  }
+}

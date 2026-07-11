@@ -1,0 +1,134 @@
+{
+  "name": "🔣 Symbols",
+  "row0": {
+    "key00": {
+      "codes": {
+        "tap": "~"
+      },
+      "scale": 2.0
+    },
+    "key01": {
+      "codes": {
+        "tap": "`"
+      },
+      "scale": 2.0
+    },
+    "key02": {
+      "codes": {
+        "tap": "|"
+      },
+      "scale": 2.0
+    },
+    "key03": {
+      "codes": {
+        "tap": "•"
+      },
+      "scale": 2.0
+    },
+    "key04": {
+      "codes": {
+        "tap": "√"
+      },
+      "scale": 2.0
+    }
+  },
+  "row1": {
+    "key10": {
+      "codes": {
+        "tap": "π"
+      },
+      "scale": 2.0
+    },
+    "key11": {
+      "codes": {
+        "tap": "÷"
+      },
+      "scale": 2.0
+    },
+    "key12": {
+      "codes": {
+        "tap": "×"
+      },
+      "scale": 2.0
+    },
+    "key13": {
+      "codes": {
+        "tap": "§"
+      },
+      "scale": 2.0
+    },
+    "key14": {
+      "codes": {
+        "tap": "±"
+      },
+      "scale": 2.0
+    }
+  },
+  "row2": {
+    "key20": {
+      "codes": {
+        "tap": "£"
+      },
+      "scale": 2.0
+    },
+    "key21": {
+      "codes": {
+        "tap": "¢"
+      },
+      "scale": 2.0
+    },
+    "key22": {
+      "codes": {
+        "tap": "€"
+      },
+      "scale": 2.0
+    },
+    "key23": {
+      "codes": {
+        "tap": "¥"
+      },
+      "scale": 2.0
+    },
+    "key24": {
+      "codes": {
+        "tap": { "code": "DELETE", "icon": "backspace" },
+        "right": { "code": "FORWARD_DELETE", "icon": "backspace" }
+      },
+      "flags": "CONTROL | REPEATABLE | SWIPEABLE",
+      "scale": 2.0
+    }
+  },
+  "row3": {
+    "key00": {
+      "codes": {
+        "tap": { "code": 3, "icon": "dialpad" }
+      },
+      "flags": "SWITCH",
+      "scale": 2.0
+    },
+    "key30": {
+      "codes": {
+        "tap": "{"
+      },
+      "scale": 2.0
+    },
+    "key31": {
+      "codes": {
+        "tap": "}"
+      },
+      "scale": 2.0
+    },
+    "key32": {
+      "codes": {
+        "tap": ";"
+      },
+      "scale": 2.0
+    },
+    "key33": {
+      "codes": {
+        "tap": ":"
+      },
+      "scale": 2.0
+    }
+  }
+}

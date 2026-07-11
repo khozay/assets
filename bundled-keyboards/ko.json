@@ -1,0 +1,225 @@
+{
+  "name": "🇰🇷 한국어",
+  "composer": "hangul",
+  "row0": {
+    "key00": {
+      "codes": {
+        "tap": "ㅂ",
+        "shift": "ㅃ",
+        "upRight": "1",
+        "downLeft": "@"
+      }
+    },
+    "key01": {
+      "codes": {
+        "tap": "ㅈ",
+        "shift": "ㅉ",
+        "upRight": "2",
+        "downLeft": "#"
+      }
+    },
+    "key02": {
+      "codes": {
+        "tap": "ㄷ",
+        "shift": "ㄸ",
+        "upRight": "3",
+        "downLeft": "$"
+      }
+    },
+    "key03": {
+      "codes": {
+        "tap": "ㄱ",
+        "shift": "ㄲ",
+        "upRight": "4",
+        "downLeft": "%"
+      }
+    },
+    "key04": {
+      "codes": {
+        "tap": "ㅅ",
+        "shift": "ㅆ",
+        "upRight": "5",
+        "downLeft": "^"
+      }
+    },
+    "key05": {
+      "codes": {
+        "tap": "ㅛ",
+        "upRight": "6",
+        "downLeft": "&"
+      }
+    },
+    "key06": {
+      "codes": {
+        "tap": "ㅕ",
+        "upRight": "7",
+        "downLeft": "*"
+      }
+    },
+    "key07": {
+      "codes": {
+        "tap": "ㅑ",
+        "upRight": "8",
+        "downLeft": "(",
+        "downRight": ")"
+      }
+    },
+    "key08": {
+      "codes": {
+        "tap": "ㅐ",
+        "shift": "ㅒ",
+        "upRight": "9"
+      }
+    },
+    "key09": {
+      "codes": {
+        "tap": "ㅔ",
+        "shift": "ㅖ",
+        "upLeft": "0"
+      }
+    }
+  },
+  "row1": {
+    "key10": {
+      "codes": {
+        "tap": "ㅁ"
+      }
+    },
+    "key11": {
+      "codes": {
+        "tap": "ㄴ"
+      }
+    },
+    "key12": {
+      "codes": {
+        "tap": "ㅇ"
+      }
+    },
+    "key13": {
+      "codes": {
+        "tap": "ㄹ"
+      }
+    },
+    "key14": {
+      "codes": {
+        "tap": "ㅎ"
+      }
+    },
+    "key15": {
+      "codes": {
+        "tap": "ㅗ",
+        "upRight": "ㅘ",
+        "up": "ㅙ",
+        "right": "ㅚ"
+      }
+    },
+    "key16": {
+      "codes": {
+        "tap": "ㅓ"
+      }
+    },
+    "key17": {
+      "codes": {
+        "tap": "ㅏ"
+      }
+    },
+    "key18": {
+      "codes": {
+        "tap": "ㅣ"
+      }
+    }
+  },
+  "row2": {
+    "key20": {
+      "codes": {
+        "tap": { "code": "SHIFT", "icon": "shift" }
+      },
+      "flags": "MODIFIER | LATCHABLE | LOCKABLE",
+      "scale": 1.5
+    },
+    "key21": {
+      "codes": {
+        "tap": "ㅋ"
+      }
+    },
+    "key22": {
+      "codes": {
+        "tap": "ㅌ"
+      }
+    },
+    "key23": {
+      "codes": {
+        "tap": "ㅊ"
+      }
+    },
+    "key24": {
+      "codes": {
+        "tap": "ㅍ"
+      }
+    },
+    "key25": {
+      "codes": {
+        "tap": "ㅠ"
+      }
+    },
+    "key26": {
+      "codes": {
+        "tap": "ㅜ",
+        "upRight": "ㅝ",
+        "up": "ㅞ",
+        "right": "ㅟ"
+      }
+    },
+    "key27": {
+      "codes": {
+        "tap": "ㅡ",
+        "right": "ㅢ"
+      }
+    },
+    "key28": {
+      "codes": {
+        "tap": { "code": "DELETE", "icon": "backspace" },
+        "right": { "code": "FORWARD_DELETE", "icon": "backspace" }
+      },
+      "flags": "CONTROL | REPEATABLE | SWIPEABLE",
+      "scale": 1.5
+    }
+  },
+  "row3": {
+    "key30": {
+      "codes": {
+        "tap": { "code": "CTRL", "icon": "keyboard_command_key" }
+      },
+      "flags": "EVENT | MODIFIER | LATCHABLE"
+    },
+    "key31": {
+      "codes": {
+        "tap": { "code": "LANG", "icon": "language" }
+      },
+      "flags": "EVENT"
+    },
+    "key33": {
+      "codes": {
+        "tap": " ",
+        "shift": " ",
+        "left": { "code": "LEFT", "icon": "arrow_back_ios" },
+        "right": { "code": "RIGHT", "icon": "arrow_forward_ios" }
+      },
+      "flags": "CHARACTER | SWIPEABLE | REPEATABLE",
+      "scale": 5.5
+    },
+    "key34": {
+      "codes": {
+        "tap": { "code": "EMOJI", "icon": "emoji_emotions" }
+      },
+      "flags": "EVENT"
+    },
+    "key35": {
+      "codes": {
+        "tap": { "code": "DONE", "icon": "send" }
+      },
+      "flags": "CONTROL | EVENT",
+      "scale": 1.5
+    }
+  }
+}

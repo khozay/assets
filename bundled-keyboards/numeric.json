@@ -1,0 +1,134 @@
+{
+  "name": "🔢 Numeric",
+  "row0": {
+    "key00": {
+      "codes": {
+        "tap": 43
+      },
+      "scale": 2.0
+    },
+    "key01": {
+      "codes": {
+        "tap": 49
+      },
+      "scale": 2.0
+    },
+    "key02": {
+      "codes": {
+        "tap": 50
+      },
+      "scale": 2.0
+    },
+    "key03": {
+      "codes": {
+        "tap": 51
+      },
+      "scale": 2.0
+    },
+    "key04": {
+      "codes": {
+        "tap": 42
+      },
+      "scale": 2.0
+    }
+  },
+  "row1": {
+    "key10": {
+      "codes": {
+        "tap": 45
+      },
+      "scale": 2.0
+    },
+    "key11": {
+      "codes": {
+        "tap": 52
+      },
+      "scale": 2.0
+    },
+    "key12": {
+      "codes": {
+        "tap": 53
+      },
+      "scale": 2.0
+    },
+    "key13": {
+      "codes": {
+        "tap": 54
+      },
+      "scale": 2.0
+    },
+    "key14": {
+      "codes": {
+        "tap": 47
+      },
+      "scale": 2.0
+    }
+  },
+  "row2": {
+    "key20": {
+      "codes": {
+        "tap": 61
+      },
+      "scale": 2.0
+    },
+    "key21": {
+      "codes": {
+        "tap": 55
+      },
+      "scale": 2.0
+    },
+    "key22": {
+      "codes": {
+        "tap": 56
+      },
+      "scale": 2.0
+    },
+    "key23": {
+      "codes": {
+        "tap": 57
+      },
+      "scale": 2.0
+    },
+    "key24": {
+      "codes": {
+        "tap": { "code": -5, "icon": "backspace" },
+        "right": { "code": -28, "icon": "backspace" }
+      },
+      "flags": "SWIPEABLE | REPEATABLE | MODIFIER",
+      "scale": 2.0
+    }
+  },
+  "row3": {
+    "key00": {
+      "codes": {
+        "tap": { "code": 1, "icon": "abc" }
+      },
+      "flags": "SWITCH",
+      "scale": 2.0
+    },
+    "key30": {
+      "codes": {
+        "tap": 48
+      },
+      "scale": 2.0
+    },
+    "key31": {
+      "codes": {
+        "tap": 46
+      },
+      "scale": 2.0
+    },
+    "key32": {
+      "codes": {
+        "tap": 44
+      },
+      "scale": 2.0
+    },
+    "key33": {
+      "codes": {
+        "tap": 64
+      },
+      "scale": 2.0
+    }
+  }
+}

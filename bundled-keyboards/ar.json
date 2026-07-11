@@ -1,0 +1,239 @@
+{
+  "name": "🇸🇦 العربية",
+  "row0": {
+    "key00": {
+      "codes": {
+        "tap": "ض",
+        "shift": "ذ",
+        "upRight": "1",
+        "downLeft": "@"
+      }
+    },
+    "key01": {
+      "codes": {
+        "tap": "ص",
+        "upRight": "2",
+        "downLeft": "#"
+      }
+    },
+    "key02": {
+      "codes": {
+        "tap": "ث",
+        "upRight": "3",
+        "downLeft": "$"
+      }
+    },
+    "key03": {
+      "codes": {
+        "tap": "ق",
+        "upRight": "4",
+        "downLeft": "%"
+      }
+    },
+    "key04": {
+      "codes": {
+        "tap": "ف",
+        "upRight": "5",
+        "downLeft": "^"
+      }
+    },
+    "key05": {
+      "codes": {
+        "tap": "غ",
+        "upRight": "6",
+        "downLeft": "&"
+      }
+    },
+    "key06": {
+      "codes": {
+        "tap": "ع",
+        "upRight": "7",
+        "downLeft": "*"
+      }
+    },
+    "key07": {
+      "codes": {
+        "tap": "ه",
+        "upRight": "8",
+        "downLeft": "(",
+        "downRight": ")"
+      }
+    },
+    "key08": {
+      "codes": {
+        "tap": "خ",
+        "upRight": "9"
+      }
+    },
+    "key09": {
+      "codes": {
+        "tap": "ح",
+        "shift": "ج",
+        "upLeft": "0"
+      }
+    }
+  },
+  "row1": {
+    "key10": {
+      "codes": {
+        "tap": "ش",
+        "upRight": "`"
+      }
+    },
+    "key11": {
+      "codes": {
+        "tap": "س"
+      }
+    },
+    "key12": {
+      "codes": {
+        "tap": "ي"
+      }
+    },
+    "key13": {
+      "codes": {
+        "tap": "ب"
+      }
+    },
+    "key14": {
+      "codes": {
+        "tap": "ل",
+        "shift": "ك",
+        "upRight": "_",
+        "downLeft": "-"
+      }
+    },
+    "key15": {
+      "codes": {
+        "tap": "ا",
+        "upRight": "=",
+        "downLeft": "+"
+      }
+    },
+    "key16": {
+      "codes": {
+        "tap": "ت",
+        "shift": "ط",
+        "downLeft": "{",
+        "downRight": "}"
+      }
+    },
+    "key17": {
+      "codes": {
+        "tap": "ن",
+        "shift": "ز",
+        "downLeft": "[",
+        "downRight": "]"
+      }
+    },
+    "key18": {
+      "codes": {
+        "tap": "م",
+        "upRight": "|",
+        "downLeft": "\\"
+      }
+    }
+  },
+  "row2": {
+    "key20": {
+      "codes": {
+        "tap": { "code": "SHIFT", "icon": "shift" }
+      },
+      "flags": "MODIFIER | LATCHABLE | LOCKABLE",
+      "scale": 1.5
+    },
+    "key21": {
+      "codes": {
+        "tap": "ئ",
+        "upRight": "/"
+      }
+    },
+    "key22": {
+      "codes": {
+        "tap": "ء",
+        "upRight": ".",
+        "downLeft": ","
+      }
+    },
+    "key23": {
+      "codes": {
+        "tap": "ؤ",
+        "downLeft": "<",
+        "downRight": ">"
+      }
+    },
+    "key24": {
+      "codes": {
+        "tap": "ر",
+        "shift": "و",
+        "upRight": "؟",
+        "downLeft": "!"
+      }
+    },
+    "key25": {
+      "codes": {
+        "tap": "د",
+        "upRight": ":",
+        "downLeft": ";"
+      }
+    },
+    "key26": {
+      "codes": {
+        "tap": "ى",
+        "upRight": "\"",
+        "downLeft": "'"
+      }
+    },
+    "key27": {
+      "codes": {
+        "tap": "ة",
+        "shift": "ظ"
+      }
+    },
+    "key28": {
+      "codes": {
+        "tap": { "code": "DELETE", "icon": "backspace" },
+        "right": { "code": "FORWARD_DELETE", "icon": "backspace" }
+      },
+      "flags": "CONTROL | REPEATABLE | SWIPEABLE",
+      "scale": 1.5
+    }
+  },
+  "row3": {
+    "key30": {
+      "codes": {
+        "tap": { "code": "CTRL", "icon": "keyboard_command_key" }
+      },
+      "flags": "EVENT | MODIFIER | LATCHABLE"
+    },
+    "key31": {
+      "codes": {
+        "tap": { "code": "LANG", "icon": "language" }
+      },
+      "flags": "EVENT"
+    },
+    "key33": {
+      "codes": {
+        "tap": " ",
+        "shift": " ",
+        "left": { "code": "LEFT", "icon": "arrow_back_ios" },
+        "right": { "code": "RIGHT", "icon": "arrow_forward_ios" }
+      },
+      "flags": "CHARACTER | SWIPEABLE | REPEATABLE",
+      "scale": 5.5
+    },
+    "key34": {
+      "codes": {
+        "tap": { "code": "EMOJI", "icon": "emoji_emotions" }
+      },
+      "flags": "EVENT"
+    },
+    "key35": {
+      "codes": {
+        "tap": { "code": "DONE", "icon": "send" }
+      },
+      "flags": "CONTROL | EVENT",
+      "scale": 1.5
+    }
+  }
+}
