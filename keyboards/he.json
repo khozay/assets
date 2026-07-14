@@ -28,10 +28,10 @@
     "key22": { "codes": { "tap": "ס" } },
     "key23": { "codes": { "tap": "ב" } },
     "key24": { "codes": { "tap": "ה" } },
-    "key25": { "codes": { "tap": "נ", "upRight": "ן" } },
-    "key26": { "codes": { "tap": "מ", "upRight": "ם" } },
+    "key25": { "codes": { "tap": "נ" } },
+    "key26": { "codes": { "tap": "מ" } },
     "key27": { "codes": { "tap": "צ", "upRight": "ץ" } },
-    "key28": { "codes": { "tap": { "code": "DELETE", "icon": "backspace" }, "right": { "code": "FORWARD_DELETE", "icon": "backspace" } }, "flags": "CONTROL | REPEATABLE | SWIPEABLE", "scale": 1.5 }
+    "key28": { "codes": { "tap": { "code": "DELETE", "icon": "backspace" } }, "flags": "CONTROL | REPEATABLE", "scale": 1.5 }
   },
   "row3": {
     "key30": { "codes": { "tap": { "code": "CTRL", "icon": "keyboard_command_key" } }, "flags": "EVENT | MODIFIER | LATCHABLE" },
