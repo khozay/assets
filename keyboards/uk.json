@@ -1,53 +1,311 @@
 {
   "name": "🇺🇦 Українська",
   "row0": {
-    "key00": { "codes": { "tap": "й", "shift": "Й" } },
-    "key01": { "codes": { "tap": "ц", "shift": "Ц" } },
-    "key02": { "codes": { "tap": "у", "shift": "У" } },
-    "key03": { "codes": { "tap": "к", "shift": "К" } },
-    "key04": { "codes": { "tap": "е", "shift": "Е" } },
-    "key05": { "codes": { "tap": "н", "shift": "Н" } },
-    "key06": { "codes": { "tap": "г", "shift": "Г", "upRight": "ґ" } },
-    "key07": { "codes": { "tap": "ш", "shift": "Ш" } },
-    "key08": { "codes": { "tap": "щ", "shift": "Щ" } },
-    "key09": { "codes": { "tap": "з", "shift": "З" } },
-    "key0a": { "codes": { "tap": "ї", "shift": "Ї" } }
+    "key00": {
+      "codes": {
+        "tap": "й",
+        "shift": "Й",
+        "upRight": "1",
+        "downLeft": "@"
+      }
+    },
+    "key01": {
+      "codes": {
+        "tap": "ц",
+        "shift": "Ц",
+        "upRight": "2",
+        "downLeft": "#"
+      }
+    },
+    "key02": {
+      "codes": {
+        "tap": "у",
+        "shift": "У",
+        "upRight": "3",
+        "downLeft": "$"
+      }
+    },
+    "key03": {
+      "codes": {
+        "tap": "к",
+        "shift": "К",
+        "upRight": "4",
+        "downLeft": "%"
+      }
+    },
+    "key04": {
+      "codes": {
+        "tap": "е",
+        "shift": "Е",
+        "upRight": "5",
+        "downLeft": "^"
+      }
+    },
+    "key05": {
+      "codes": {
+        "tap": "н",
+        "shift": "Н",
+        "upRight": "6",
+        "downLeft": "&"
+      }
+    },
+    "key06": {
+      "codes": {
+        "tap": "г",
+        "shift": "Г",
+        "upRight": "ґ",
+        "downLeft": "*"
+      }
+    },
+    "key07": {
+      "codes": {
+        "tap": "ш",
+        "shift": "Ш",
+        "upRight": "8",
+        "downLeft": "(",
+        "downRight": ")"
+      }
+    },
+    "key08": {
+      "codes": {
+        "tap": "щ",
+        "shift": "Щ",
+        "upRight": "9"
+      }
+    },
+    "key09": {
+      "codes": {
+        "tap": "з",
+        "shift": "З",
+        "upLeft": "0"
+      }
+    },
+    "key0a": {
+      "codes": {
+        "tap": "ї",
+        "shift": "Ї"
+      }
+    }
   },
   "row1": {
-    "key10": { "codes": { "tap": "ф", "shift": "Ф" } },
-    "key11": { "codes": { "tap": "і", "shift": "І" } },
-    "key12": { "codes": { "tap": "в", "shift": "В" } },
-    "key13": { "codes": { "tap": "а", "shift": "А" } },
-    "key14": { "codes": { "tap": "п", "shift": "П" } },
-    "key15": { "codes": { "tap": "р", "shift": "Р" } },
-    "key16": { "codes": { "tap": "о", "shift": "О" } },
-    "key17": { "codes": { "tap": "л", "shift": "Л" } },
-    "key18": { "codes": { "tap": "д", "shift": "Д" } },
-    "key19": { "codes": { "tap": "ж", "shift": "Ж" } },
-    "key1a": { "codes": { "tap": "є", "shift": "Є" } }
+    "key10": {
+      "codes": {
+        "tap": "ф",
+        "shift": "Ф",
+        "upRight": "`"
+      }
+    },
+    "key11": {
+      "codes": {
+        "tap": "і",
+        "shift": "І"
+      }
+    },
+    "key12": {
+      "codes": {
+        "tap": "в",
+        "shift": "В"
+      }
+    },
+    "key13": {
+      "codes": {
+        "tap": "а",
+        "shift": "А"
+      }
+    },
+    "key14": {
+      "codes": {
+        "tap": "п",
+        "shift": "П",
+        "upRight": "_",
+        "downLeft": "-"
+      }
+    },
+    "key15": {
+      "codes": {
+        "tap": "р",
+        "shift": "Р",
+        "upRight": "=",
+        "downLeft": "+"
+      }
+    },
+    "key16": {
+      "codes": {
+        "tap": "о",
+        "shift": "О",
+        "downLeft": "{",
+        "downRight": "}"
+      }
+    },
+    "key17": {
+      "codes": {
+        "tap": "л",
+        "shift": "Л",
+        "downLeft": "[",
+        "downRight": "]"
+      }
+    },
+    "key18": {
+      "codes": {
+        "tap": "д",
+        "shift": "Д",
+        "upRight": "|",
+        "downLeft": "\\"
+      }
+    },
+    "key19": {
+      "codes": {
+        "tap": "ж",
+        "shift": "Ж"
+      }
+    },
+    "key1a": {
+      "codes": {
+        "tap": "є",
+        "shift": "Є"
+      }
+    }
   },
   "row2": {
-    "key20": { "codes": { "tap": { "code": "SHIFT", "icon": "shift" } }, "flags": "MODIFIER | LATCHABLE | LOCKABLE", "scale": 1.5 },
-    "key21": { "codes": { "tap": "я", "shift": "Я" } },
-    "key22": { "codes": { "tap": "ч", "shift": "Ч" } },
-    "key23": { "codes": { "tap": "с", "shift": "С" } },
-    "key24": { "codes": { "tap": "м", "shift": "М" } },
-    "key25": { "codes": { "tap": "и", "shift": "И" } },
-    "key26": { "codes": { "tap": "т", "shift": "Т" } },
-    "key27": { "codes": { "tap": "ь", "shift": "Ь" } },
-    "key28": { "codes": { "tap": "б", "shift": "Б" } },
-    "key29": { "codes": { "tap": "ю", "shift": "Ю" } },
-    "key2a": { "codes": { "tap": { "code": "DELETE", "icon": "backspace" }, "right": { "code": "FORWARD_DELETE", "icon": "backspace" } }, "flags": "CONTROL | REPEATABLE | SWIPEABLE", "scale": 1.5 }
+    "key20": {
+      "codes": {
+        "tap": {
+          "code": "SHIFT",
+          "icon": "shift"
+        }
+      },
+      "flags": "MODIFIER | LATCHABLE | LOCKABLE",
+      "scale": 1.5
+    },
+    "key21": {
+      "codes": {
+        "tap": "я",
+        "shift": "Я"
+      }
+    },
+    "key22": {
+      "codes": {
+        "tap": "ч",
+        "shift": "Ч",
+        "upRight": "/"
+      }
+    },
+    "key23": {
+      "codes": {
+        "tap": "с",
+        "shift": "С",
+        "upRight": ".",
+        "downLeft": ","
+      }
+    },
+    "key24": {
+      "codes": {
+        "tap": "м",
+        "shift": "М",
+        "downLeft": "<",
+        "downRight": ">"
+      }
+    },
+    "key25": {
+      "codes": {
+        "tap": "и",
+        "shift": "И",
+        "upRight": "?",
+        "downLeft": "!"
+      }
+    },
+    "key26": {
+      "codes": {
+        "tap": "т",
+        "shift": "Т",
+        "upRight": ":",
+        "downLeft": ";"
+      }
+    },
+    "key27": {
+      "codes": {
+        "tap": "ь",
+        "shift": "Ь",
+        "upRight": "\"",
+        "downLeft": "'"
+      }
+    },
+    "key28": {
+      "codes": {
+        "tap": "б",
+        "shift": "Б"
+      }
+    },
+    "key29": {
+      "codes": {
+        "tap": "ю",
+        "shift": "Ю"
+      }
+    },
+    "key2a": {
+      "codes": {
+        "tap": {
+          "code": "DELETE",
+          "icon": "backspace"
+        }
+      },
+      "flags": "CONTROL | REPEATABLE",
+      "scale": 1.5
+    }
   },
   "row3": {
-    "key30": { "codes": { "tap": { "code": "CTRL", "icon": "keyboard_command_key" } }, "flags": "EVENT | MODIFIER | LATCHABLE" },
-    "key31": { "codes": { "tap": { "code": "LANG", "icon": "language" } }, "flags": "EVENT" },
+    "key30": {
+      "codes": {
+        "tap": {
+          "code": "CTRL",
+          "icon": "keyboard_command_key"
+        }
+      },
+      "flags": "EVENT | MODIFIER | LATCHABLE"
+    },
+    "key31": {
+      "codes": {
+        "tap": {
+          "code": "LANG",
+          "icon": "language"
+        }
+      },
+      "flags": "EVENT"
+    },
     "key33": {
-      "codes": { "tap": " ", "shift": " ", "left": { "code": "LEFT", "icon": "arrow_back_ios" }, "right": { "code": "RIGHT", "icon": "arrow_forward_ios" } },
+      "codes": {
+        "tap": " ",
+        "shift": " ",
+        "left": {
+          "code": "LEFT",
+          "icon": "arrow_back_ios"
+        },
+        "right": {
+          "code": "RIGHT",
+          "icon": "arrow_forward_ios"
+        }
+      },
       "flags": "CHARACTER | SWIPEABLE | REPEATABLE",
       "scale": 5.5
     },
-    "key34": { "codes": { "tap": { "code": "EMOJI", "icon": "emoji_emotions" } }, "flags": "EVENT" },
-    "key35": { "codes": { "tap": { "code": "DONE", "icon": "send" } }, "flags": "CONTROL | EVENT", "scale": 1.5 }
+    "key34": {
+      "codes": {
+        "tap": {
+          "code": "EMOJI",
+          "icon": "emoji_emotions"
+        }
+      },
+      "flags": "EVENT"
+    },
+    "key35": {
+      "codes": {
+        "tap": {
+          "code": "DONE",
+          "icon": "send"
+        }
+      },
+      "flags": "CONTROL | EVENT",
+      "scale": 1.5
+    }
   }
 }

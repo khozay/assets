@@ -137,7 +137,10 @@
   "row2": {
     "key20": {
       "codes": {
-        "tap": { "code": "SHIFT", "icon": "shift" }
+        "tap": {
+          "code": "SHIFT",
+          "icon": "shift"
+        }
       },
       "flags": "MODIFIER | LATCHABLE | LOCKABLE",
       "scale": 1.5
@@ -159,7 +162,8 @@
       "codes": {
         "tap": "ؤ",
         "downLeft": "<",
-        "downRight": ">"
+        "downRight": ">",
+        "upRight": "."
       }
     },
     "key24": {
@@ -167,7 +171,8 @@
         "tap": "ر",
         "shift": "و",
         "upRight": "؟",
-        "downLeft": "!"
+        "downLeft": "!",
+        "downRight": ">"
       }
     },
     "key25": {
@@ -187,28 +192,38 @@
     "key27": {
       "codes": {
         "tap": "ة",
-        "shift": "ظ"
+        "shift": "ظ",
+        "upRight": "\"",
+        "downLeft": "'"
       }
     },
     "key28": {
       "codes": {
-        "tap": { "code": "DELETE", "icon": "backspace" },
-        "right": { "code": "FORWARD_DELETE", "icon": "backspace" }
+        "tap": {
+          "code": "DELETE",
+          "icon": "backspace"
+        }
       },
-      "flags": "CONTROL | REPEATABLE | SWIPEABLE",
+      "flags": "CONTROL | REPEATABLE",
       "scale": 1.5
     }
   },
   "row3": {
     "key30": {
       "codes": {
-        "tap": { "code": "CTRL", "icon": "keyboard_command_key" }
+        "tap": {
+          "code": "CTRL",
+          "icon": "keyboard_command_key"
+        }
       },
       "flags": "EVENT | MODIFIER | LATCHABLE"
     },
     "key31": {
       "codes": {
-        "tap": { "code": "LANG", "icon": "language" }
+        "tap": {
+          "code": "LANG",
+          "icon": "language"
+        }
       },
       "flags": "EVENT"
     },
@@ -216,21 +231,33 @@
       "codes": {
         "tap": " ",
         "shift": " ",
-        "left": { "code": "LEFT", "icon": "arrow_back_ios" },
-        "right": { "code": "RIGHT", "icon": "arrow_forward_ios" }
+        "left": {
+          "code": "LEFT",
+          "icon": "arrow_back_ios"
+        },
+        "right": {
+          "code": "RIGHT",
+          "icon": "arrow_forward_ios"
+        }
       },
       "flags": "CHARACTER | SWIPEABLE | REPEATABLE",
       "scale": 5.5
     },
     "key34": {
       "codes": {
-        "tap": { "code": "EMOJI", "icon": "emoji_emotions" }
+        "tap": {
+          "code": "EMOJI",
+          "icon": "emoji_emotions"
+        }
       },
       "flags": "EVENT"
     },
     "key35": {
       "codes": {
-        "tap": { "code": "DONE", "icon": "send" }
+        "tap": {
+          "code": "DONE",
+          "icon": "send"
+        }
       },
       "flags": "CONTROL | EVENT",
       "scale": 1.5

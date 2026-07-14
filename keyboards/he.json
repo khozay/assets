@@ -1,47 +1,250 @@
 {
   "name": "🇮🇱 עברית",
   "row0": {
-    "key00": { "codes": { "tap": "ת" } },
-    "key01": { "codes": { "tap": "'" } },
-    "key02": { "codes": { "tap": "ק" } },
-    "key03": { "codes": { "tap": "ר" } },
-    "key04": { "codes": { "tap": "א" } },
-    "key05": { "codes": { "tap": "ט" } },
-    "key06": { "codes": { "tap": "ו" } },
-    "key07": { "codes": { "tap": "ן" } },
-    "key08": { "codes": { "tap": "ם" } },
-    "key09": { "codes": { "tap": "פ", "upRight": "ף" } }
+    "key00": {
+      "codes": {
+        "tap": "ת",
+        "upRight": "1",
+        "downLeft": "@"
+      }
+    },
+    "key01": {
+      "codes": {
+        "tap": "'",
+        "upRight": "2",
+        "downLeft": "#"
+      }
+    },
+    "key02": {
+      "codes": {
+        "tap": "ק",
+        "upRight": "3",
+        "downLeft": "$"
+      }
+    },
+    "key03": {
+      "codes": {
+        "tap": "ר",
+        "upRight": "4",
+        "downLeft": "%"
+      }
+    },
+    "key04": {
+      "codes": {
+        "tap": "א",
+        "upRight": "5",
+        "downLeft": "^"
+      }
+    },
+    "key05": {
+      "codes": {
+        "tap": "ט",
+        "upRight": "6",
+        "downLeft": "&"
+      }
+    },
+    "key06": {
+      "codes": {
+        "tap": "ו",
+        "upRight": "7",
+        "downLeft": "*"
+      }
+    },
+    "key07": {
+      "codes": {
+        "tap": "ן",
+        "upRight": "8",
+        "downLeft": "(",
+        "downRight": ")"
+      }
+    },
+    "key08": {
+      "codes": {
+        "tap": "ם",
+        "upRight": "9"
+      }
+    },
+    "key09": {
+      "codes": {
+        "tap": "פ",
+        "upRight": "ף",
+        "upLeft": "0"
+      }
+    }
   },
   "row1": {
-    "key10": { "codes": { "tap": "ש" } },
-    "key11": { "codes": { "tap": "ד" } },
-    "key12": { "codes": { "tap": "ג" } },
-    "key13": { "codes": { "tap": "כ", "upRight": "ך" } },
-    "key14": { "codes": { "tap": "ע" } },
-    "key15": { "codes": { "tap": "י" } },
-    "key16": { "codes": { "tap": "ח" } },
-    "key17": { "codes": { "tap": "ל" } }
+    "key10": {
+      "codes": {
+        "tap": "ש",
+        "upRight": "`"
+      }
+    },
+    "key11": {
+      "codes": {
+        "tap": "ד"
+      }
+    },
+    "key12": {
+      "codes": {
+        "tap": "ג"
+      }
+    },
+    "key13": {
+      "codes": {
+        "tap": "כ",
+        "upRight": "ך"
+      }
+    },
+    "key14": {
+      "codes": {
+        "tap": "ע",
+        "upRight": "_",
+        "downLeft": "-"
+      }
+    },
+    "key15": {
+      "codes": {
+        "tap": "י",
+        "upRight": "=",
+        "downLeft": "+"
+      }
+    },
+    "key16": {
+      "codes": {
+        "tap": "ח",
+        "downLeft": "{",
+        "downRight": "}"
+      }
+    },
+    "key17": {
+      "codes": {
+        "tap": "ל",
+        "downLeft": "[",
+        "downRight": "]"
+      }
+    }
   },
   "row2": {
-    "key20": { "codes": { "tap": { "code": "SHIFT", "icon": "shift" } }, "flags": "MODIFIER | LATCHABLE | LOCKABLE", "scale": 1.5 },
-    "key21": { "codes": { "tap": "ז" } },
-    "key22": { "codes": { "tap": "ס" } },
-    "key23": { "codes": { "tap": "ב" } },
-    "key24": { "codes": { "tap": "ה" } },
-    "key25": { "codes": { "tap": "נ" } },
-    "key26": { "codes": { "tap": "מ" } },
-    "key27": { "codes": { "tap": "צ", "upRight": "ץ" } },
-    "key28": { "codes": { "tap": { "code": "DELETE", "icon": "backspace" } }, "flags": "CONTROL | REPEATABLE", "scale": 1.5 }
+    "key20": {
+      "codes": {
+        "tap": {
+          "code": "SHIFT",
+          "icon": "shift"
+        }
+      },
+      "flags": "MODIFIER | LATCHABLE | LOCKABLE",
+      "scale": 1.5
+    },
+    "key21": {
+      "codes": {
+        "tap": "ז"
+      }
+    },
+    "key22": {
+      "codes": {
+        "tap": "ס",
+        "upRight": "/"
+      }
+    },
+    "key23": {
+      "codes": {
+        "tap": "ב",
+        "upRight": ".",
+        "downLeft": ","
+      }
+    },
+    "key24": {
+      "codes": {
+        "tap": "ה",
+        "downLeft": "<",
+        "downRight": ">"
+      }
+    },
+    "key25": {
+      "codes": {
+        "tap": "נ",
+        "upRight": "?",
+        "downLeft": "!"
+      }
+    },
+    "key26": {
+      "codes": {
+        "tap": "מ",
+        "upRight": ":",
+        "downLeft": ";"
+      }
+    },
+    "key27": {
+      "codes": {
+        "tap": "צ",
+        "upRight": "ץ",
+        "downLeft": "'"
+      }
+    },
+    "key28": {
+      "codes": {
+        "tap": {
+          "code": "DELETE",
+          "icon": "backspace"
+        }
+      },
+      "flags": "CONTROL | REPEATABLE",
+      "scale": 1.5
+    }
   },
   "row3": {
-    "key30": { "codes": { "tap": { "code": "CTRL", "icon": "keyboard_command_key" } }, "flags": "EVENT | MODIFIER | LATCHABLE" },
-    "key31": { "codes": { "tap": { "code": "LANG", "icon": "language" } }, "flags": "EVENT" },
+    "key30": {
+      "codes": {
+        "tap": {
+          "code": "CTRL",
+          "icon": "keyboard_command_key"
+        }
+      },
+      "flags": "EVENT | MODIFIER | LATCHABLE"
+    },
+    "key31": {
+      "codes": {
+        "tap": {
+          "code": "LANG",
+          "icon": "language"
+        }
+      },
+      "flags": "EVENT"
+    },
     "key33": {
-      "codes": { "tap": " ", "shift": " ", "left": { "code": "LEFT", "icon": "arrow_back_ios" }, "right": { "code": "RIGHT", "icon": "arrow_forward_ios" } },
+      "codes": {
+        "tap": " ",
+        "shift": " ",
+        "left": {
+          "code": "LEFT",
+          "icon": "arrow_back_ios"
+        },
+        "right": {
+          "code": "RIGHT",
+          "icon": "arrow_forward_ios"
+        }
+      },
       "flags": "CHARACTER | SWIPEABLE | REPEATABLE",
       "scale": 5.5
     },
-    "key34": { "codes": { "tap": { "code": "EMOJI", "icon": "emoji_emotions" } }, "flags": "EVENT" },
-    "key35": { "codes": { "tap": { "code": "DONE", "icon": "send" } }, "flags": "CONTROL | EVENT", "scale": 1.5 }
+    "key34": {
+      "codes": {
+        "tap": {
+          "code": "EMOJI",
+          "icon": "emoji_emotions"
+        }
+      },
+      "flags": "EVENT"
+    },
+    "key35": {
+      "codes": {
+        "tap": {
+          "code": "DONE",
+          "icon": "send"
+        }
+      },
+      "flags": "CONTROL | EVENT",
+      "scale": 1.5
+    }
   }
 }

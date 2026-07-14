@@ -1,48 +1,279 @@
 {
   "name": "🇫🇷 Français",
   "row0": {
-    "key00": { "codes": { "tap": "a", "shift": "A", "upRight": "à" } },
-    "key01": { "codes": { "tap": "z", "shift": "Z" } },
-    "key02": { "codes": { "tap": "e", "shift": "E", "upRight": "é", "downLeft": "è" } },
-    "key03": { "codes": { "tap": "r", "shift": "R" } },
-    "key04": { "codes": { "tap": "t", "shift": "T" } },
-    "key05": { "codes": { "tap": "y", "shift": "Y" } },
-    "key06": { "codes": { "tap": "u", "shift": "U", "upRight": "ù" } },
-    "key07": { "codes": { "tap": "i", "shift": "I" } },
-    "key08": { "codes": { "tap": "o", "shift": "O" } },
-    "key09": { "codes": { "tap": "p", "shift": "P" } }
+    "key00": {
+      "codes": {
+        "tap": "a",
+        "shift": "A",
+        "upRight": "à",
+        "downLeft": "@"
+      }
+    },
+    "key01": {
+      "codes": {
+        "tap": "z",
+        "shift": "Z",
+        "upRight": "2",
+        "downLeft": "#"
+      }
+    },
+    "key02": {
+      "codes": {
+        "tap": "e",
+        "shift": "E",
+        "upRight": "é",
+        "downLeft": "è"
+      }
+    },
+    "key03": {
+      "codes": {
+        "tap": "r",
+        "shift": "R",
+        "upRight": "4",
+        "downLeft": "%"
+      }
+    },
+    "key04": {
+      "codes": {
+        "tap": "t",
+        "shift": "T",
+        "upRight": "5",
+        "downLeft": "^"
+      }
+    },
+    "key05": {
+      "codes": {
+        "tap": "y",
+        "shift": "Y",
+        "upRight": "6",
+        "downLeft": "&"
+      }
+    },
+    "key06": {
+      "codes": {
+        "tap": "u",
+        "shift": "U",
+        "upRight": "ù",
+        "downLeft": "*"
+      }
+    },
+    "key07": {
+      "codes": {
+        "tap": "i",
+        "shift": "I",
+        "upRight": "8",
+        "downLeft": "(",
+        "downRight": ")"
+      }
+    },
+    "key08": {
+      "codes": {
+        "tap": "o",
+        "shift": "O",
+        "upRight": "9"
+      }
+    },
+    "key09": {
+      "codes": {
+        "tap": "p",
+        "shift": "P",
+        "upLeft": "0"
+      }
+    }
   },
   "row1": {
-    "key10": { "codes": { "tap": "q", "shift": "Q" } },
-    "key11": { "codes": { "tap": "s", "shift": "S" } },
-    "key12": { "codes": { "tap": "d", "shift": "D" } },
-    "key13": { "codes": { "tap": "f", "shift": "F" } },
-    "key14": { "codes": { "tap": "g", "shift": "G" } },
-    "key15": { "codes": { "tap": "h", "shift": "H" } },
-    "key16": { "codes": { "tap": "j", "shift": "J" } },
-    "key17": { "codes": { "tap": "k", "shift": "K" } },
-    "key18": { "codes": { "tap": "l", "shift": "L" } },
-    "key19": { "codes": { "tap": "m", "shift": "M" } }
+    "key10": {
+      "codes": {
+        "tap": "q",
+        "shift": "Q",
+        "upRight": "`"
+      }
+    },
+    "key11": {
+      "codes": {
+        "tap": "s",
+        "shift": "S"
+      }
+    },
+    "key12": {
+      "codes": {
+        "tap": "d",
+        "shift": "D"
+      }
+    },
+    "key13": {
+      "codes": {
+        "tap": "f",
+        "shift": "F"
+      }
+    },
+    "key14": {
+      "codes": {
+        "tap": "g",
+        "shift": "G",
+        "upRight": "_",
+        "downLeft": "-"
+      }
+    },
+    "key15": {
+      "codes": {
+        "tap": "h",
+        "shift": "H",
+        "upRight": "=",
+        "downLeft": "+"
+      }
+    },
+    "key16": {
+      "codes": {
+        "tap": "j",
+        "shift": "J",
+        "downLeft": "{",
+        "downRight": "}"
+      }
+    },
+    "key17": {
+      "codes": {
+        "tap": "k",
+        "shift": "K",
+        "downLeft": "[",
+        "downRight": "]"
+      }
+    },
+    "key18": {
+      "codes": {
+        "tap": "l",
+        "shift": "L",
+        "upRight": "|",
+        "downLeft": "\\"
+      }
+    },
+    "key19": {
+      "codes": {
+        "tap": "m",
+        "shift": "M"
+      }
+    }
   },
   "row2": {
-    "key20": { "codes": { "tap": { "code": "SHIFT", "icon": "shift" } }, "flags": "MODIFIER | LATCHABLE | LOCKABLE", "scale": 1.5 },
-    "key21": { "codes": { "tap": "w", "shift": "W" } },
-    "key22": { "codes": { "tap": "x", "shift": "X" } },
-    "key23": { "codes": { "tap": "c", "shift": "C", "upRight": "ç" } },
-    "key24": { "codes": { "tap": "v", "shift": "V" } },
-    "key25": { "codes": { "tap": "b", "shift": "B" } },
-    "key26": { "codes": { "tap": "n", "shift": "N" } },
-    "key28": { "codes": { "tap": { "code": "DELETE", "icon": "backspace" }, "right": { "code": "FORWARD_DELETE", "icon": "backspace" } }, "flags": "CONTROL | REPEATABLE | SWIPEABLE", "scale": 1.5 }
+    "key20": {
+      "codes": {
+        "tap": {
+          "code": "SHIFT",
+          "icon": "shift"
+        }
+      },
+      "flags": "MODIFIER | LATCHABLE | LOCKABLE",
+      "scale": 1.5
+    },
+    "key21": {
+      "codes": {
+        "tap": "w",
+        "shift": "W"
+      }
+    },
+    "key22": {
+      "codes": {
+        "tap": "x",
+        "shift": "X",
+        "upRight": "/"
+      }
+    },
+    "key23": {
+      "codes": {
+        "tap": "c",
+        "shift": "C",
+        "upRight": "ç",
+        "downLeft": ","
+      }
+    },
+    "key24": {
+      "codes": {
+        "tap": "v",
+        "shift": "V",
+        "downLeft": "<",
+        "downRight": ">"
+      }
+    },
+    "key25": {
+      "codes": {
+        "tap": "b",
+        "shift": "B",
+        "upRight": "?",
+        "downLeft": "!"
+      }
+    },
+    "key26": {
+      "codes": {
+        "tap": "n",
+        "shift": "N",
+        "upRight": ":",
+        "downLeft": ";"
+      }
+    },
+    "key28": {
+      "codes": {
+        "tap": {
+          "code": "DELETE",
+          "icon": "backspace"
+        }
+      },
+      "flags": "CONTROL | REPEATABLE",
+      "scale": 1.5
+    }
   },
   "row3": {
-    "key30": { "codes": { "tap": { "code": "CTRL", "icon": "keyboard_command_key" } }, "flags": "EVENT | MODIFIER | LATCHABLE" },
-    "key31": { "codes": { "tap": { "code": "LANG", "icon": "language" } }, "flags": "EVENT" },
+    "key30": {
+      "codes": {
+        "tap": {
+          "code": "CTRL",
+          "icon": "keyboard_command_key"
+        }
+      },
+      "flags": "EVENT | MODIFIER | LATCHABLE"
+    },
+    "key31": {
+      "codes": {
+        "tap": {
+          "code": "LANG",
+          "icon": "language"
+        }
+      },
+      "flags": "EVENT"
+    },
     "key33": {
-      "codes": { "tap": " ", "shift": " ", "left": { "code": "LEFT", "icon": "arrow_back_ios" }, "right": { "code": "RIGHT", "icon": "arrow_forward_ios" } },
+      "codes": {
+        "tap": " ",
+        "shift": " ",
+        "left": {
+          "code": "LEFT",
+          "icon": "arrow_back_ios"
+        },
+        "right": {
+          "code": "RIGHT",
+          "icon": "arrow_forward_ios"
+        }
+      },
       "flags": "CHARACTER | SWIPEABLE | REPEATABLE",
       "scale": 5.5
     },
-    "key34": { "codes": { "tap": { "code": "EMOJI", "icon": "emoji_emotions" } }, "flags": "EVENT" },
-    "key35": { "codes": { "tap": { "code": "DONE", "icon": "send" } }, "flags": "CONTROL | EVENT", "scale": 1.5 }
+    "key34": {
+      "codes": {
+        "tap": {
+          "code": "EMOJI",
+          "icon": "emoji_emotions"
+        }
+      },
+      "flags": "EVENT"
+    },
+    "key35": {
+      "codes": {
+        "tap": {
+          "code": "DONE",
+          "icon": "send"
+        }
+      },
+      "flags": "CONTROL | EVENT",
+      "scale": 1.5
+    }
   }
 }

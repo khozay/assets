@@ -78,7 +78,8 @@
       "codes": {
         "tap": "з",
         "shift": "З",
-        "upRight": "0"
+        "upRight": "0",
+        "upLeft": "0"
       }
     },
     "key0a": {
@@ -170,7 +171,10 @@
   "row2": {
     "key20": {
       "codes": {
-        "tap": { "code": -1, "icon": "shift" }
+        "tap": {
+          "code": -1,
+          "icon": "shift"
+        }
       },
       "flags": "LOCKABLE | MODIFIER"
     },
@@ -223,7 +227,9 @@
       "codes": {
         "tap": "ь",
         "shift": "Ь",
-        "downRight": "ъ"
+        "downRight": "ъ",
+        "upRight": "\"",
+        "downLeft": "'"
       }
     },
     "key28": {
@@ -242,8 +248,14 @@
     },
     "key2a": {
       "codes": {
-        "tap": { "code": -5, "icon": "backspace" },
-        "right": { "code": -28, "icon": "backspace" }
+        "tap": {
+          "code": -5,
+          "icon": "backspace"
+        },
+        "right": {
+          "code": -28,
+          "icon": "backspace"
+        }
       },
       "flags": "SWIPEABLE | REPEATABLE | MODIFIER"
     }
@@ -251,13 +263,19 @@
   "row3": {
     "key30": {
       "codes": {
-        "tap": { "code": -8, "icon": "keyboard_command_key" }
+        "tap": {
+          "code": -8,
+          "icon": "keyboard_command_key"
+        }
       },
       "flags": "LATCHABLE | MODIFIER"
     },
     "key31": {
       "codes": {
-        "tap": { "code": -26, "icon": "language" }
+        "tap": {
+          "code": -26,
+          "icon": "language"
+        }
       },
       "flags": "EVENT"
     },
@@ -265,21 +283,33 @@
       "codes": {
         "tap": " ",
         "shift": " ",
-        "left": { "code": -11, "icon": "arrow_back_ios" },
-        "right": { "code": -10, "icon": "arrow_forward_ios" }
+        "left": {
+          "code": -11,
+          "icon": "arrow_back_ios"
+        },
+        "right": {
+          "code": -10,
+          "icon": "arrow_forward_ios"
+        }
       },
       "flags": "REPEATABLE",
       "scale": 5.5
     },
     "key35": {
       "codes": {
-        "tap": { "code": -7, "icon": "emoji_emotions" }
+        "tap": {
+          "code": -7,
+          "icon": "emoji_emotions"
+        }
       },
       "flags": "EVENT"
     },
     "key36": {
       "codes": {
-        "tap": { "code": -4, "icon": "send" }
+        "tap": {
+          "code": -4,
+          "icon": "send"
+        }
       },
       "flags": "MODIFIER",
       "scale": 1.5

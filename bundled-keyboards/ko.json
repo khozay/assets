@@ -82,7 +82,8 @@
   "row1": {
     "key10": {
       "codes": {
-        "tap": "ㅁ"
+        "tap": "ㅁ",
+        "upRight": "`"
       }
     },
     "key11": {
@@ -102,7 +103,9 @@
     },
     "key14": {
       "codes": {
-        "tap": "ㅎ"
+        "tap": "ㅎ",
+        "upRight": "_",
+        "downLeft": "-"
       }
     },
     "key15": {
@@ -110,29 +113,39 @@
         "tap": "ㅗ",
         "upRight": "ㅘ",
         "up": "ㅙ",
-        "right": "ㅚ"
+        "right": "ㅚ",
+        "downLeft": "+"
       }
     },
     "key16": {
       "codes": {
-        "tap": "ㅓ"
+        "tap": "ㅓ",
+        "downLeft": "{",
+        "downRight": "}"
       }
     },
     "key17": {
       "codes": {
-        "tap": "ㅏ"
+        "tap": "ㅏ",
+        "downLeft": "[",
+        "downRight": "]"
       }
     },
     "key18": {
       "codes": {
-        "tap": "ㅣ"
+        "tap": "ㅣ",
+        "upRight": "|",
+        "downLeft": "\\"
       }
     }
   },
   "row2": {
     "key20": {
       "codes": {
-        "tap": { "code": "SHIFT", "icon": "shift" }
+        "tap": {
+          "code": "SHIFT",
+          "icon": "shift"
+        }
       },
       "flags": "MODIFIER | LATCHABLE | LOCKABLE",
       "scale": 1.5
@@ -144,22 +157,29 @@
     },
     "key22": {
       "codes": {
-        "tap": "ㅌ"
+        "tap": "ㅌ",
+        "upRight": "/"
       }
     },
     "key23": {
       "codes": {
-        "tap": "ㅊ"
+        "tap": "ㅊ",
+        "upRight": ".",
+        "downLeft": ","
       }
     },
     "key24": {
       "codes": {
-        "tap": "ㅍ"
+        "tap": "ㅍ",
+        "downLeft": "<",
+        "downRight": ">"
       }
     },
     "key25": {
       "codes": {
-        "tap": "ㅠ"
+        "tap": "ㅠ",
+        "upRight": "?",
+        "downLeft": "!"
       }
     },
     "key26": {
@@ -167,34 +187,45 @@
         "tap": "ㅜ",
         "upRight": "ㅝ",
         "up": "ㅞ",
-        "right": "ㅟ"
+        "right": "ㅟ",
+        "downLeft": ";"
       }
     },
     "key27": {
       "codes": {
         "tap": "ㅡ",
-        "right": "ㅢ"
+        "right": "ㅢ",
+        "upRight": "\"",
+        "downLeft": "'"
       }
     },
     "key28": {
       "codes": {
-        "tap": { "code": "DELETE", "icon": "backspace" },
-        "right": { "code": "FORWARD_DELETE", "icon": "backspace" }
+        "tap": {
+          "code": "DELETE",
+          "icon": "backspace"
+        }
       },
-      "flags": "CONTROL | REPEATABLE | SWIPEABLE",
+      "flags": "CONTROL | REPEATABLE",
       "scale": 1.5
     }
   },
   "row3": {
     "key30": {
       "codes": {
-        "tap": { "code": "CTRL", "icon": "keyboard_command_key" }
+        "tap": {
+          "code": "CTRL",
+          "icon": "keyboard_command_key"
+        }
       },
       "flags": "EVENT | MODIFIER | LATCHABLE"
     },
     "key31": {
       "codes": {
-        "tap": { "code": "LANG", "icon": "language" }
+        "tap": {
+          "code": "LANG",
+          "icon": "language"
+        }
       },
       "flags": "EVENT"
     },
@@ -202,21 +233,33 @@
       "codes": {
         "tap": " ",
         "shift": " ",
-        "left": { "code": "LEFT", "icon": "arrow_back_ios" },
-        "right": { "code": "RIGHT", "icon": "arrow_forward_ios" }
+        "left": {
+          "code": "LEFT",
+          "icon": "arrow_back_ios"
+        },
+        "right": {
+          "code": "RIGHT",
+          "icon": "arrow_forward_ios"
+        }
       },
       "flags": "CHARACTER | SWIPEABLE | REPEATABLE",
       "scale": 5.5
     },
     "key34": {
       "codes": {
-        "tap": { "code": "EMOJI", "icon": "emoji_emotions" }
+        "tap": {
+          "code": "EMOJI",
+          "icon": "emoji_emotions"
+        }
       },
       "flags": "EVENT"
     },
     "key35": {
       "codes": {
-        "tap": { "code": "DONE", "icon": "send" }
+        "tap": {
+          "code": "DONE",
+          "icon": "send"
+        }
       },
       "flags": "CONTROL | EVENT",
       "scale": 1.5
