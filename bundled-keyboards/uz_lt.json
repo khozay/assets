@@ -188,10 +188,9 @@
     },
     "key28": {
       "codes": {
-        "tap": { "code": "DELETE", "icon": "backspace" },
-        "right": { "code": "FORWARD_DELETE", "icon": "backspace" }
+        "tap": { "code": "DELETE", "icon": "backspace" }
       },
-      "flags": "CONTROL | REPEATABLE | SWIPEABLE",
+      "flags": "CONTROL | REPEATABLE",
       "scale": 1.5
     }
   },
@@ -216,7 +215,7 @@
         "right": { "code": "RIGHT", "icon": "arrow_forward_ios" }
       },
       "flags": "CHARACTER | SWIPEABLE | REPEATABLE",
-      "scale": 3.5
+      "scale": 5.5
     },
     "key35": {
       "codes": {
